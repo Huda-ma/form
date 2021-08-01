@@ -359,17 +359,17 @@ width: 80%;
   margin-bottom: 8%;
 }
 .div7-2 {
-  margin-bottom: 7%;
+  margin-bottom: 8%;
 }
 .div7-3 {
-  margin-bottom: 6%;
+  margin-bottom: 8%;
 }
 
 .div7-4 {
-  margin-bottom: 7%;
+  margin-bottom: 8%;
 }
 .div7-5 {
-  margin-bottom: 6%;
+  margin-bottom: 8%;
 }
 
 .div7-1  div{
@@ -408,4 +408,294 @@ width: 80%;
 
 .mailingAddress strong{
 padding-left: 4%;
+}
+
+
+
+
+
+
+
+.container8 {
+  padding-left: 4%;
+  padding-right: 4%;
+  width: 92%;
+  display: inline-flex;
+  margin-bottom: 7%;
+  padding-top: 5%;
+}
+
+.container8-div1 {
+  position: relative;
+  width: 50%;
+}
+
+.div8-1 input{
+  width: 80%;
+}
+.div8-2 input{
+  width: 80%;
+}
+.div8-3 input{
+  width: 80%;
+}
+
+
+
+
+
+.div8-1 {
+  margin-bottom: 8%;
+}
+.div8-2 {
+  margin-bottom: 7%;
+}
+.div8-3 {
+  margin-bottom: 6%;
+}
+
+.div8-1  div{
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+
+.div8-2  div{
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+
+.div8-3  div{
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+
+#fathersdetails{
+  color: #f98a2d;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: #fffcf8;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+#fathersdetails strong{
+padding-left: 4%;
+}
+
+
+
+.container9 {
+  padding-left: 4%;
+  padding-right: 4%;
+  width: 92%;
+  display: inline-flex;
+  margin-bottom: 7%;
+  padding-top: 5%;
+}
+
+.container9-div1 {
+  position: relative;
+  width: 50%;
+}
+
+.div9-1 input{
+  width: 80%;
+}
+.div9-2 input{
+  width: 80%;
+}
+.div9-3 input{
+  width: 80%;
+}
+
+
+
+
+
+.div9-1 {
+  margin-bottom: 8%;
+}
+.div9-2 {
+  margin-bottom: 7%;
+}
+.div9-3 {
+  margin-bottom: 6%;
+}
+
+.div9-1  div{
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+
+.div9-2  div{
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+
+.div9-3  div{
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+
+#mothersdetails{
+  color: #f98a2d;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: #fffcf8;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+#mothersdetails strong{
+padding-left: 4%;
+}
+
+
+
+.container10 {
+  padding-left: 4%;
+  padding-right: 4%;
+  width: 92%;
+  display: inline-flex;
+  margin-bottom: 7%;
+  padding-top: 5%;
+}
+
+.container10-div1 {
+  position: relative;
+  width: 50%;
+}
+
+.div10-1 input{
+  width: 80%;
+}
+.div10-2 input{
+  width: 80%;
+}
+.div10-3 input{
+  width: 80%;
+}
+
+
+
+
+
+.div10-1 {
+  margin-bottom: 8%;
+}
+.div10-2 {
+  margin-bottom: 7%;
+}
+.div10-3 {
+  margin-bottom: 6%;
+}
+
+.div10-1  div{
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+
+.div10-2  div{
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+
+.div10-3  div{
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+
+#Emergency-section{
+  color: #f98a2d;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: #fffcf8;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+#Emergency-section strong{
+padding-left: 4%;
+}
+
+.container11{
+  padding-left: 4%;
+  padding-right: 4%;
+  width: 92%;
+  display: flex;
+  margin-bottom: 7%;
+  padding-top: 5%;
+
+
+}
+
+.div11-1 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 7%;
+  display: flex;
+}
+
+
+
+.div11-1 div {
+  margin-right: 4%;
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+
+
+.div11-1 strong {
+  width: 80%;
+}
+
+
+.div11-2{
+ 
+  position: relative;
+  width: 50%;
+  margin-bottom: 7%;
+}
+
+
+
+.div11-2 div {
+margin-bottom: 3%;
+font-size: 16px;
+}
+
+
+.div11-2 strong {
+width: 80%;
+}
+
+
+.regular-student{
+  width: 80%;
+}
+
+.transfer-student{
+  width: 80%;
+}
+
+.Applying-for{
+  color: #f98a2d;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: #fffcf8;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+.Applying-for strong{
+padding-left: 4%;
+}
+
+.div11-1 label{
+  font-size: 16px;
+    font-weight: bold;
 }
