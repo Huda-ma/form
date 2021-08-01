@@ -148,3 +148,23 @@ body{
 }
 
 
+.container4 {
+  padding-left: 4%;
+  padding-right: 4%;
+  width: 52%;
+  margin-bottom: 8%;
+}
+
+.container4 div {
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+
+.container4 div strong {
+  margin-bottom: 6%;
+  font-size: 16px;
+}
+
+#BloodType {
+  width: 78%;
+}
