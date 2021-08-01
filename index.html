@@ -110,7 +110,7 @@
   </div>
 
  
-  <div id="lbanese-only-section"><Strong>For Lebanese Only</Strong></div>
+  <div id="lbanese-only-section"><Strong>For Lebanese Students Only</Strong></div>
   <div class="container5">
     <div class="container5-div1">
   
@@ -150,7 +150,7 @@
    
     </div>
 
-    <div class="nonlebanese-section"> <strong> Non Lebanese</strong> </div>
+    <div class="nonlebanese-section"> <strong> Passport information, if non Lebanese</strong> </div>
     <div class="container6">
      
       <div class="div6-1">
@@ -220,6 +220,146 @@
     </div>
      
       </div>
+
+
+      <div id="fathersdetails"><Strong>Father's Details</Strong></div>
+      <div class="container8">
+        <div class="container8-div1">
+      
+          <div class="div1">
+          <div> <strong> Father's Name</strong> </div>
+          <Input class="Father-name" type="text"></Input>
+          </div>
+      
+          <div class="div2">
+          <div> <strong> Occupation</strong> </div>
+          <Input class="Father-Occupation" type="text" ></Input>
+          </div>
+    
+          <div class="div3">
+            <div> <strong>Mobile</strong> </div>
+            <Input class="Father-mobile" type="number" ></Input>
+            </div>
+      
+        </div>
+        <div class="container5-div2">
+          <div class="div8-1">
+            <div> <strong> Company</strong> </div>
+            <Input class="Father-company" type="text"></Input>
+            </div>
+        
+            <div class="div8-2">
+            <div> <strong> Email</strong> </div>
+            <Input class="Father-Email" type="email" ></Input>
+            </div>
+      
+            <div class="div8-3">
+              <div> <strong>CNSS Number</strong> </div>
+              <Input class="Father-CNSS-Number" type="text" ></Input>
+              </div>
+        
+      </div>
+       
+        </div>
+
+
+        <div id="mothersdetails"><Strong>Mother's Details</Strong></div>
+        <div class="container9">
+          <div class="container9-div1">
+        
+            <div class="div1">
+            <div> <strong> Mother's Name</strong> </div>
+            <Input class="Mother-Name" type="text"></Input>
+            </div>
+        
+            <div class="div2">
+            <div> <strong> Occupation</strong> </div>
+            <Input class="Mother-Occupation" type="text" ></Input>
+            </div>
+      
+            <div class="div3">
+              <div> <strong>Mobile</strong> </div>
+              <Input class="Mother-mobile" type="number" ></Input>
+              </div>
+        
+          </div>
+          <div class="container9-div2">
+            <div class="div9-1">
+              <div> <strong> Company</strong> </div>
+              <Input class="Mother-company" type="text"></Input>
+              </div>
+          
+              <div class="div9-2">
+              <div> <strong> Email</strong> </div>
+              <Input class="Mother-Email" type="email" ></Input>
+              </div>
+        
+              <div class="div9-3">
+                <div> <strong>CNSS Number</strong> </div>
+                <Input class="Mother-CNSS-Number" type="text" ></Input>
+                </div>
+          
+        </div>
+         
+          </div>
+
+
+          <div id="Emergency-section"><Strong>Emergency Conacts</Strong></div>
+        <div class="container10">
+          <div class="container10-div1">
+        
+            <div class="div1">
+            <div> <strong> First Name</strong> </div>
+            <Input class="Em-First-Name" type="text"></Input>
+            </div>
+        
+            <div class="div2">
+            <div> <strong> Middle Name</strong> </div>
+            <Input class="Em-Middle-Name" type="text" ></Input>
+            </div>
+      
+            <div class="div3">
+              <div> <strong>Last Name</strong> </div>
+              <Input class="Em-Last-Name" type="text" ></Input>
+              </div>
+        
+          </div>
+          <div class="container10-div2">
+            <div class="div10-1">
+              <div> <strong> Relationship</strong> </div>
+              <Input class="Em-Relationship" type="text"></Input>
+              </div>
+          
+              <div class="div10-2">
+              <div> <strong> Mobile</strong> </div>
+              <Input class="Em-Mobile" type="tel" ></Input>
+              </div>
+        
+              <div class="div10-3">
+                <div> <strong>Landline</strong> </div>
+                <Input class="Em-Landline" type="tel" ></Input>
+                </div>
+          
+        </div>
+         
+          </div>
+
+
+          <div class="Applying-for"> <strong>  Indicate  whether you are applying as a</strong> </div>
+    <div class="container11">
+     
+      <div class="div11-1">
+        <div>
+          <input type="checkbox" id="regular-student" name="regular-student" class="studenttype"
+                 >
+          <label for="regular-student">Regular Student</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" id="Transfer-student" name="Transfer-student" class="studenttype">
+          <label for="Transfer-student">Transfer Student</label>
+        </div>
+    </div>
   
 </form>
 
@@ -238,6 +378,10 @@
     
     $(".Semester").click(function() {
         $(".Semester").not(this).prop('checked', false);
+    });
+
+    $(".studenttype").click(function() {
+        $(".studenttype").not(this).prop('checked', false);
     });
     
 });
